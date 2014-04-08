@@ -1,4 +1,4 @@
-# Maintainer: Jonah Bernhard <jonah.bernhard@gmail.com>
+# Maintainer: Jonah Bernhard <jonah.bernhard at gmail dot com>
 pkgname=mlbviewer
 pkgver=2014_sf_1
 _pkgyear=${pkgver%_sf_*}
