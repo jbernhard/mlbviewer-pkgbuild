@@ -11,7 +11,7 @@ depends=('libconfig' 'curl' 'python2' 'rtmpdump')
 makedepends=('subversion')
 optdepends=('mpv: lightweight streaming media player')
 install="${pkgname}.install"
-source=("http://downloads.sourceforge.net/project/${pkgname}/${pkgname}/${_pkgyear}/${pkgname}${pkgver//_/-}.tar.gz")
+source=("http://downloads.sourceforge.net/project/${pkgname}/${pkgname}/2014/${pkgname}2014-sf-1.tar.gz")
 sha1sums=('3b4102ef7645518ad884a74b194005a90b083bf2')
 
 build () {
