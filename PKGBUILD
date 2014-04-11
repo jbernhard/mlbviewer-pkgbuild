@@ -2,7 +2,7 @@
 pkgname=mlbviewer
 pkgver=2014_sf_1
 _pkgyear=${pkgver%_sf_*}
-pkgrel=1
+pkgrel=2
 pkgdesc="A collection of tools to view and listen to streaming baseball games from MLB.TV."
 arch=('i686' 'x86_64')
 url="http://sourceforge.net/projects/mlbviewer"
