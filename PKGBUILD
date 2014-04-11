@@ -9,7 +9,10 @@ url="http://sourceforge.net/projects/mlbviewer"
 license=('GPL2')
 depends=('libconfig' 'curl' 'python2' 'rtmpdump')
 makedepends=('subversion')
-optdepends=('mpv: lightweight streaming media player')
+optdepends=(
+  'mpv: lightweight streaming media player'
+  'python2-gdata: MLB classics'
+)
 install="${pkgname}.install"
 source=("http://downloads.sourceforge.net/project/${pkgname}/${pkgname}/2014/${pkgname}2014-sf-1.tar.gz")
 sha1sums=('3b4102ef7645518ad884a74b194005a90b083bf2')
